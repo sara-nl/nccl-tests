@@ -2,7 +2,7 @@
 #SBATCH --job-name="NCCL_tests"
 #SBATCH --nodes=2
 #SBATCH --output=res_nccl_inter.out
-#SBATCH --error=rfm_nccl_inter.err
+#SBATCH --error=res_nccl_inter.err
 #SBATCH --time=0:2:0
 #SBATCH --exclusive
 #SBATCH -p gpu_h100
